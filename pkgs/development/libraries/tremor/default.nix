@@ -1,4 +1,4 @@
-{ stdenv, fetchgit, autoreconfHook, pkgconfig, libogg }:
+{ stdenv, fetchFromGitLab, autoreconfHook, pkgconfig, libogg }:
 
 stdenv.mkDerivation {
   name = "tremor-unstable-2018-03-16";
